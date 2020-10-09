@@ -29,7 +29,7 @@ rm -rf .config/nvim
 mkdir -p .config/nvim
 
 echo "installing config files"
-RAWHUB="https://raw.githubusercontent.com/daaniiieel/nvim/master"
+RAWHUB="https://raw.githubusercontent.com/daaniiieel/init.vim/master"
 
 curl -s $RAWHUB/init.vim >.config/nvim/init.vim
 curl -s $RAWHUB/coc-settings.json >.config/nvim/coc-settings.json
