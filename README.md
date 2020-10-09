@@ -4,6 +4,7 @@ This is my neovim init.vim file, based on [paperbenni's vimrc](https://github.co
 ## dependencies
 - `npm`
 - `ruby`
+- `python-pip`, `python2-pip`
 
 ## install
 
