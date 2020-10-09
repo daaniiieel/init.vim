@@ -7,6 +7,7 @@ This is my neovim init.vim file, based on [paperbenni's vimrc](https://github.co
 - `python-pip`, `python2-pip`
 
 ## install
+you have to execute this in bash:
 
 ```sh
 bash <(curl -Ls https://raw.githubusercontent.com/daaniiieel/init.vim/master/install.sh)
