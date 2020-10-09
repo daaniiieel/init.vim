@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'dart-lang/dart-vim-plugin'
     Plug 'natebosch/vim-lsc'
     Plug 'natebosch/vim-lsc-dart'
+    Plug 'preservim/nerdtree'
     call plug#end()
 
 set list lcs=tab:\|\ 
