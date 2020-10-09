@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "installing paperbenni's neovim config"
+echo "installing daniel's neovim config"
 echo "warning, this will override existing configs"
 
 checkcommand() {
@@ -29,7 +29,7 @@ rm -rf .config/nvim
 mkdir -p .config/nvim
 
 echo "installing config files"
-RAWHUB="https://raw.githubusercontent.com/paperbenni/nvim/master"
+RAWHUB="https://raw.githubusercontent.com/daaniiieel/nvim/master"
 
 curl -s $RAWHUB/init.vim >.config/nvim/init.vim
 curl -s $RAWHUB/coc-settings.json >.config/nvim/coc-settings.json
