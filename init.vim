@@ -139,7 +139,7 @@ tnoremap <special> jk <C-\><C-n>
 
 set tabline
 set cursorline
-set relativenumber
+"set relativenumber
 set smartcase
 set ignorecase
 set scrolloff=6
