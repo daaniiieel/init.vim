@@ -6,8 +6,10 @@ set mouse=a
 call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'tpope/vim-eunuch'
+    Plug 'mhinz/vim-startify'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'joshdick/onedark.vim'
+    Plug 'preservim/tagbar'
     Plug 'airblade/vim-gitgutter'
     Plug 'rhysd/vim-grammarous'
     Plug 'tpope/vim-fugitive'
@@ -69,6 +71,7 @@ nnoremap <leader>c :call CocAction('pickColor')<CR>
 nnoremap <leader>h :GitGutterPreviewHunk<CR>
 nnoremap <leader>m :Marks<CR>
 nnoremap <leader>k :call <SID>show_documentation()<CR>
+nnoremap <leader>a :Startify<CR>
 
 nnoremap <leader>. :bn<CR>
 nnoremap <leader>, :bp<CR>
